@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WrapPipe } from './shared/pipes/wrap/wrap.pipe';
 import { PercentagePipe } from './shared/pipes/percentage/percentage.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PercentagePipe } from './shared/pipes/percentage/percentage.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
