@@ -1,1 +1,32 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container">
+        <div class="navbar-translate">
+            <img src="../../../../assets/img/2.png" alt="" class="img-logo">
+                <a class="navbar-brand" href="#pablo">
+                    Cursos Fachada
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <div ngbDropdown class="dropdown" placement="bottom-right">
+                        <button class="btn btn-danger dropdown-toggle" ngbDropdownToggle><mat-icon>list</mat-icon></button>
+                        <div ngbDropdownMenu>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">One more separated link</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
